@@ -44,7 +44,7 @@ from feast.permissions.policy import RoleBasedPolicy, GroupBasedPolicy, Namespac
 # )
 
 
-prod_namespaces = ["banking"]
+prod_namespaces = ["admin-demo"]
 
 # pre_changed = Permission(name="entity_reader", types=ONLY_ENTITIES, policy=NamespaceBasedPolicy(namespaces=prod_namespaces), actions=[AuthzedAction.DESCRIBE] + READ)
 all_resources = Permission(
